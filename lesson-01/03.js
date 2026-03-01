@@ -5,4 +5,27 @@
 */
 
 // your code
+
 let sum
+let a = 1
+let b = 0
+
+while (a % 2 !== 0 & a < 20) {
+    b = a + b
+    a += 2
+    sum = b
+}
+console.log(sum)
+
+
+
+
+
+
+
+
+
+
+
+
+
