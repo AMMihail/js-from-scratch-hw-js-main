@@ -14,7 +14,7 @@ while (count < 20) {
     count ++
     sum = b
 }
-    alert(sum)
+    // alert(sum)
 
 
 
