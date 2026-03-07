@@ -17,6 +17,5 @@ while (count < 10) {
     count ++
 factorial = b
 }
-// alert(factorial)
-// console.log(factorial)
+
 
