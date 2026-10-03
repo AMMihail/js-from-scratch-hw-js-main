@@ -1,3 +1,5 @@
+
+
 /*
 * Напишите код, который симулирует бросок двух шестигранных игральных кубиков и определяет, выпал ли выигрышный дубль.
 * В переменные dice1 и dice2 должны присваиваться случайные целые числа от 1 до 6.
@@ -7,9 +9,48 @@
 * Для успешного прохождения тестов не меняйте названия переменных!
 */
 
-let dice1 // your code
-let dice2 // your code
-let isWinningDouble // your code
+let dice1 = Math.floor(Math.random() * 6) + 1
+let dice2 = Math.floor(Math.random() * 6) + 1
+
+console.log('Первый бросок: ' + dice1)
+console.log('Второй бросок: ' + dice2)
+
+let isWinningDouble
+if ((dice1 === dice2) && dice1 > 3) {
+    isWinningDouble = true
+    console.log('Выигрышный дубль!')
+} else {
+    console.log('Не выигрышный дубль.')
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let dice1 // your code
+// let dice2 // your code
+// let isWinningDouble // your code
 
 /*
 console.log('Первый бросок: ' + dice1)
