@@ -3,16 +3,11 @@
 
 // your code
 
-let sum
-let a = 2
-let b = 1
-let count = 1
-
-while (count < 20) {
-    b = a + b
-    a ++
-    count ++
-    sum = b
+let num = 1
+    let sum = 0
+while (num <= 20) {
+    sum += num
+num ++
 }
 
 

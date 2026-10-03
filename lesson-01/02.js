@@ -6,16 +6,11 @@
 */
 
 // your code
-let factorial
-let a = 2
-let b = 1
-let count = 1
-
-while (count < 10) {
-    b = a * b
-    a ++
-    count ++
-factorial = b
+let factorial = 1
+let num = 1
+while (num <= 10) {
+    factorial *= num
+    num++
 }
 
 
